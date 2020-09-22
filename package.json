@@ -1,0 +1,22 @@
+{
+  "name": "pixi_project",
+  "version": "1.0.0",
+  "description": "self project",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoshniyVasiya/pixi_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoshniyVasiya/pixi_project/issues"
+  },
+  "homepage": "https://github.com/MoshniyVasiya/pixi_project#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
