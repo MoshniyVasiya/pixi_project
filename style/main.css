@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 0;
+    width: fit-content;
+}
+body > canvas {
+    order: 2;
+
+}
+.top_fields {
+    order: 1;
+
+}
+.top_fields > span {
+    padding: 3px;
+    background: #ffffff;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.bottom_controls {
+    order: 3;
+    display: flex;
+    margin-top: 5px;
+}
+.number_of_shapes {
+    display: flex;
+    align-items: center;
+}
+ button {
+    margin-right: 5px;
+}
+.bottom_controls > .number_of_shapes > span {
+    padding: 0 6px;
+    border: 1px solid black;
+    line-height: 20px;
+}
+.gravity_control {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.bottom_controls > .gravity_control > span {
+    padding: 0 6px;
+    border: 1px solid black;
+    line-height: 20px;
+}
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PIXI start</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script type="text/javascript" src="js/pixi.min.js"></script>
+
+</head>
+
+<body>
+
+
+<div class="top_fields">
+    <span>Number of shapes: <span id="shapesN"></span></span>
+    <span>Surface area occupied by shapes: <span id="shapesS"></span> in px^2</span>
+</div>
+
+<div class="bottom_controls">
+    <div class="number_of_shapes">
+        <button id="incr_number">+</button>
+        <button id="decr_number">-</button>
+        <span>Number of shapes per sec: <span id="shapesPerSec"></span></span>
+    </div>
+    <div class="gravity_control">
+        <button id="incr_gravity">+</button>
+        <button id="decr_gravity">-</button>
+        <span>Gravity value: <span id="gravityV"></span></span>
+    </div>
+</div>
+<script defer type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
